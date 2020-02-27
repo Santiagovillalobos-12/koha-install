@@ -54,7 +54,9 @@ OPACPORT="8085"
 find / -name "*koha-conf.xml"
 ```
 ### edit file result
-```exctract user name and password
+```
+exctract user name and password
+
 ```
 
 ### install apache configs
