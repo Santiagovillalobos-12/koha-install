@@ -6,7 +6,7 @@ https://wiki.koha-community.org/wiki/Debian
 ### get the repo
 ```sh
 sudo wget -q -O- https://debian.koha-community.org/koha/gpg.asc | sudo apt-key add - (x)
-wget -q -O- http://debian.koha-community.org/koha/gpg.asc | sudo apt-key add - (ok)
+sudo wget -q -O- http://debian.koha-community.org/koha/gpg.asc | sudo apt-key add - (ok)
 
 echo 'deb http://debian.koha-community.org/koha stable main' | sudo tee /etc/apt/sources.list.d/koha.list(x)
 echo 'deb http://debian.koha-community.org/koha stable main' | sudo tee /etc/apt/sources.list.d/koha.list (ok)
